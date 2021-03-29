@@ -1,11 +1,17 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
+
+  body: {
+
+    
+  },
   container: {
-    flex: 1,
+    width:'100%',
+    minHeight: '97%',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#3456',
+    backgroundColor: '#3234',
   },
   text: {
     color: 'white',
@@ -18,13 +24,31 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: 'white',
     fontSize: 25,
-    paddingHorizontal: 40,
-    paddingVertical: 15,
+    height: 55,
+    width: 200,
     borderRadius: 50,
-    marginTop: 30
+    marginTop: 30,
+    alignItems: 'center',
+    textAlign:'center',
+    paddingTop: 15
+  },
+  message:{
+    color: 'white',
+    fontSize: 14,
+    marginTop: 40
+  },
+ 
+  footerText1:{
+    color: 'white',
+    fontSize: 14,
+    textAlign: 'center'
     
-
-    
+  },
+  footer:{
+    textAlign:'center',
+    flexDirection:'row',
+    backgroundColor: '#fa21',
+    minHeight: '3%'
   }
 });
 
