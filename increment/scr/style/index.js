@@ -3,15 +3,14 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
 
   body: {
-
-    
+    backgroundColor: '#3234'
   },
   container: {
     width:'100%',
     minHeight: '97%',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#3234',
+    
   },
   text: {
     color: 'white',
