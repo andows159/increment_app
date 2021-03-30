@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, TouchableOpacity, TouchableOpacityBase, View} from 'react-native';
+import {Text, TouchableOpacity, View} from 'react-native';
 import styles from '../style/index';
 
 export default function Welcome(props) {
@@ -17,6 +17,10 @@ export default function Welcome(props) {
         </TouchableOpacity>
 
         <Text style={styles.message}>global counter: {props.message}</Text>
+        <TouchableOpacity style={styles.globalButton} onPress={props.formatGlobal}>
+          <Text style={styles.globalButtonText}>Clean global</Text>
+        </TouchableOpacity>
+        
       </View>
       {/* fOOOTER */}
       <View>
